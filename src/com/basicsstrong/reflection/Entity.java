@@ -8,6 +8,9 @@ public class Entity {
 		this.val = val;
 		this.type = type;
 	}
+	private Entity() {
+		this(200,"identity");
+	}
 	public int getVal() {
 		return val;
 	}
