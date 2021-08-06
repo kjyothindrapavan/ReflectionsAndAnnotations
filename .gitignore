@@ -2,3 +2,9 @@
 *.project
 *.settings
 *.class
+*.html
+*.js
+*.zip
+resources/
+script-dir/
+*.css
