@@ -1,14 +1,23 @@
 package com.basicsstrong.practice;
 
+import com.basicsstrong.annotations.Column;
+import com.basicsstrong.annotations.PrimaryKey;
+
 public class TransactionHistory {
+	
+	@PrimaryKey
 	long transactionId;
 	
+	@Column
 	int accountNumber;
 	
+	@Column
 	String name;
 	
+	@Column
 	String transactionType;
 	
+	@Column
 	double amount;
 
 	public TransactionHistory() {
