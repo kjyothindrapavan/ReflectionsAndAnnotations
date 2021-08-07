@@ -15,10 +15,9 @@ public class TransactionHistory {
 		super();
 	}
 
-	public TransactionHistory(long transactionId, int accountNumber, String name, String transactionType,
+	public TransactionHistory(int accountNumber, String name, String transactionType,
 			double amount) {
 		super();
-		this.transactionId = transactionId;
 		this.accountNumber = accountNumber;
 		this.name = name;
 		this.transactionType = transactionType;
@@ -64,6 +63,11 @@ public class TransactionHistory {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "TransactionHistory [transactionId=" + transactionId + ", accountNumber=" + accountNumber + ", name="
+				+ name + ", transactionType=" + transactionType + ", amount=" + amount + "]";
+	}
 	
 }

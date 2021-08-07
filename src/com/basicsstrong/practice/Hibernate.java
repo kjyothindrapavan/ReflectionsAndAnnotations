@@ -1,5 +1,5 @@
 package com.basicsstrong.practice;
 
-public class Hibernate {
+public class Hibernate<T> {
 
 }
