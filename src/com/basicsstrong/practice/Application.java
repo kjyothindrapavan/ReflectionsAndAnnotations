@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class Application {
 
-	public static void main(String[] args) throws SQLException {
+	public static void main(String[] args) throws SQLException, IllegalArgumentException, IllegalAccessException {
 		TransactionHistory sangeetha = new TransactionHistory(15331, "Sangeetha", "Credit", 10000);
 		TransactionHistory neha = new TransactionHistory(14531, "Neha", "Credit", 7000);
 		TransactionHistory mohit = new TransactionHistory(19031, "Mohit", "Debit", 2000);
