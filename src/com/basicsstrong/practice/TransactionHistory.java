@@ -18,14 +18,14 @@ public class TransactionHistory {
 	private String transactionType;
 	
 	@Column
-	private double amount;
+	private int amount;
 
 	public TransactionHistory() {
 		super();
 	}
 
 	public TransactionHistory(int accountNumber, String name, String transactionType,
-			double amount) {
+			int amount) {
 		super();
 		this.accountNumber = accountNumber;
 		this.name = name;
@@ -65,11 +65,11 @@ public class TransactionHistory {
 		this.transactionType = transactionType;
 	}
 
-	public double getAmount() {
+	public int getAmount() {
 		return amount;
 	}
 
-	public void setAmount(double amount) {
+	public void setAmount(int amount) {
 		this.amount = amount;
 	}
 

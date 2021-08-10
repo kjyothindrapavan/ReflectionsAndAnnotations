@@ -8,7 +8,6 @@ public class Launcher {
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
 		Server.main();
-
 	}
 
 }

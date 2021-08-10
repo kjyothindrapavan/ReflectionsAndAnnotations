@@ -9,3 +9,6 @@ resources/
 script-dir/
 *.css
 element-list
+databaset.mv.db
+databaset.trace.db
+*.classpath
